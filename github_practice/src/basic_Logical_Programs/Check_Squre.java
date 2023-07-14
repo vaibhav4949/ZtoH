@@ -28,6 +28,7 @@ public class Check_Squre
 		System.out.println("New requirement 2 ");
 	}
 }	
+<<<<<<< Updated upstream
 
 <<<<<<< Updated upstream
 		System.out.println("New Requirement 1");
@@ -38,5 +39,7 @@ public class Check_Squre
 	}	
 
 }
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
