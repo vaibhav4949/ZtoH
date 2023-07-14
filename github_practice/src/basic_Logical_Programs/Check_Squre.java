@@ -26,4 +26,8 @@ public class Check_Squre
 		sc.close();
 		System.out.println("New requirement 2 ");
 	}
+
+		System.out.println("New Requirement 1");
+	}	
+
 }
