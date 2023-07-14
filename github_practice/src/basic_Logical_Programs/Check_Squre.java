@@ -24,8 +24,13 @@ public class Check_Squre
 			System.out.println("The Side Of Squre is not same");
 		}		
 		sc.close();
+
 		System.out.println("New requirement 2 ");
 	}
+
+		System.out.println("New Requirement 1");
+	}	
+
 
 		System.out.println("New Requirement 1");
 	}	
