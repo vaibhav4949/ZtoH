@@ -29,10 +29,7 @@ public class Check_Squre
 	}
 
 		System.out.println("New Requirement 1");
-	}	
-
-
-		System.out.println("New Requirement 1");
+	}		
 	}	
 
 }
