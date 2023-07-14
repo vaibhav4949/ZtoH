@@ -1,4 +1,4 @@
-package git_pkg;
+package basic_programs;
 
 public class Hello 
 {
