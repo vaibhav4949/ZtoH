@@ -1,4 +1,4 @@
-package basic_programs;
+package loop_Logical_programs;
 
 public class Exam 
 {
