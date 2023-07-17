@@ -55,5 +55,5 @@ public class Array_Equal
 			System.out.println("Size Of Array is Not Equal");
 		}
 		sc.close();
-	}
+	}	
 }
