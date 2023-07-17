@@ -1,5 +1,7 @@
 package array_integer;
 
+import java.util.Scanner;
+
 public class Array_Equal 
 {
 	public static void main(String[]args) 
