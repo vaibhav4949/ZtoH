@@ -1,5 +1,7 @@
 package array_String;
 
+import java.util.Scanner;
+
 public class Word_Count_Easy 
 {
 	public static void main(String[]args) 
