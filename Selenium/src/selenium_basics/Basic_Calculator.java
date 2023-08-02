@@ -21,9 +21,9 @@ public class Basic_Calculator
 		WebElement ele_sn = d.findElement(by_sn);
 		ele_sn.sendKeys("40");
 		
-		By by_operator = By.xpath("//select[@id='selectOperationDropdown']");
-		WebElement ele_operator = d.findElement(by_operator);
-		ele_operator.sendKeys("Multiply");
+		By by_multiply = By.xpath("//select[@id='selectOperationDropdown']");
+		WebElement ele_multiply = d.findElement(by_multiply);
+		ele_multiply.sendKeys("Multiply");
 		
 		By by_calculate = By.xpath("//input[@id='calculateButton']");
 		WebElement ele_calculate = d.findElement(by_calculate);
