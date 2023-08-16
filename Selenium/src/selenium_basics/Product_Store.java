@@ -33,6 +33,5 @@ public class Product_Store
 		By by_logout = By.xpath("//a[@id='logout2']");
 		WebElement ele_logout = d.findElement(by_logout);
 		ele_logout.click();
-
 	}
 }
