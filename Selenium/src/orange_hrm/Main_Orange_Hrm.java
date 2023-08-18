@@ -23,5 +23,7 @@ public class Main_Orange_Hrm extends BaseClass_OrangeHrm
 		LogOut_Orange_Hrm.profile_click();
 		
 		LogOut_Orange_Hrm.click_logout();
+		
+		d.close();
 	}
 }
