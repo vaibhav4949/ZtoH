@@ -1,4 +1,4 @@
-package selenium_basics;
+package window_Handeling;
 
 import java.util.Set;
 
@@ -33,7 +33,7 @@ public class Irctc_Window_Handeling
 
 		for(String id : mul_id)
 		{
-			if(parent_id != id)
+			if(!(parent_id.equals(id)))
 			{
 				By by_buses = By.xpath("//a[text()='BUSES']");
 				WebElement ele_buses = d.findElement(by_buses);
