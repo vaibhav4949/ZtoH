@@ -39,12 +39,12 @@ public class Irctc_Window_Handeling
 				WebElement ele_buses = d.findElement(by_buses);
 				ele_buses.click();
 			}
-			//			else if(id3 != id && id3!=parent_id)
-			//			{
-			//				By by_flights = By.xpath("//div[@class='Nav-icons Flights']");
-			//				WebElement ele_flights = d.findElement(by_flights);
-			//				ele_flights.click();
-			//			}
+//						else if(id3 != id && id3!=parent_id)
+//						{
+//							By by_flights = By.xpath("//div[@class='Nav-icons Flights']");
+//							WebElement ele_flights = d.findElement(by_flights);
+//							ele_flights.click();
+//						}
 		}
 	}
 }
