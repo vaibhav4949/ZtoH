@@ -61,7 +61,6 @@ public class Add_Last_Index
 
 	public static int[] last2(int arr[],int ele)
 	{
-
 		for(int i =0;i<arr.length-1;i++)
 		{
 			arr[i] = arr[i+1];
@@ -73,7 +72,6 @@ public class Add_Last_Index
 
 	public int[] last3(int arr2[],int ele)
 	{
-
 		for(int i =0;i<arr2.length-1;i++)
 		{
 			arr2[i] = arr2[i+1];
