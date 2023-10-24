@@ -25,12 +25,12 @@ public class Spice_Jet
 		// For getting multiple windows id.
 		Set<String> mul_id = d.getWindowHandles();
 		
-		for(String id : mul_id )
+		for(String child_id : mul_id )
 		{
-			if(!(parent_id.equals(id)))
+			if(!(parent_id.equals(child_id)))
 			{
-				d.switchTo().window(id);
-				System.out.println(d.switchTo().window(id));
+				d.switchTo().window(child_id);
+				System.out.println(d.switchTo().window(child_id));
 				System.out.println(d.getTitle());
 				d.close();
 			}
