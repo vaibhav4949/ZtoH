@@ -1,10 +1,8 @@
 package basic_Selenium;
 
-
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -17,7 +15,7 @@ public class Screenshot
 	{
 		// Note - Add Apache POI Libraries.
 		// When we have to make proof of any defect while performing testing of functionality 
-		// so we take screenshot or whenever our test script is pass or fail we need screenshot .
+		// so we take screenshot or whenever our test script is pass or fail we need screenshot.
         
 		WebDriver d = new ChromeDriver();
 		d.get("https://www.amazon.in/");
@@ -29,6 +27,5 @@ public class Screenshot
 		File destination = new File("E:\\vaibhav\\Selenium\\Screenshot1\\amazon.png");
 		FileUtils.copyFile(source,destination);    // Merge source and destination
 		d.close();
-	   // hi how are you
 	}
 }

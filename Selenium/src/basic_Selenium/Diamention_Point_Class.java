@@ -41,7 +41,7 @@ public class Diamention_Point_Class
 		Point pos = d.manage().window().getPosition();
 
 		float p = pos.getX();
-		float q =pos.getY();
+		float q = pos.getY();
 
 		System.out.println("The Position is " + p + q);
 

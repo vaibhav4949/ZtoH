@@ -7,6 +7,10 @@ import java.util.List;
 
 public class ArrayLists_Basics 
 {
+	// Collection in java is a framework that provide architecture to store and Manipulate Data Effectively.
+	// Array list - 
+	// 
+	
 	public static void main(String[]args) 
 	{
 		List<Integer> list = new ArrayList<>();
